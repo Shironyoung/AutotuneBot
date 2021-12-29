@@ -55,11 +55,11 @@ async def on_message(message):
 							remove(result)
 						except Exception as e:
 							print(e)
-							await message.channel.send("Sorry, something went wrong uploading your video. Maybe the file is too large?")
+							await message.channel.send("Sorry, something went wrong uploading your video. Maybe the file is too large? as heck?")
 					else: 
 						await message.channel.send(result[0])
 				else:
-					await message.channel.send("Please send a link or search query")
+					await message.channel.send("Can Yoi Please send a link or search query?")
 			else:
 				await message.channel.send("Invald file type, available formats: " + ', '.join(exts))
 		else:

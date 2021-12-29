@@ -55,7 +55,7 @@ async def on_message(message):
 							remove(result)
 						except Exception as e:
 							print(e)
-							await message.channel.send("Sorry, something went wrong uploading your video. Maybe the file is too large?")
+							await message.channel.send("Sorry, something went wrong uploading your video. Maybe the file is too large? as heck?")
 					else: 
 						await message.channel.send(result[0])
 				else:
